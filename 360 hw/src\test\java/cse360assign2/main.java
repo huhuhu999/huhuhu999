@@ -16,13 +16,13 @@ public class main {
 		simplelist.add(11);
 		simplelist.add(12);
 	
-		//simplelist.remove(5);
-		//simplelist.remove(4);
-		//simplelist.remove(12);
-		//simplelist.remove(3);
+		simplelist.remove(5);
+		simplelist.remove(4);
+		simplelist.remove(12);
+		simplelist.remove(3);
 		
-		//simplelist.append(88);
-		//simplelist.append(99);
+		simplelist.append(88);
+		simplelist.append(99);
 		
 		int first = simplelist.first();
 		int last = simplelist.last();
