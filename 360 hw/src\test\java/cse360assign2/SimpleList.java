@@ -128,8 +128,10 @@ public class SimpleList {
 		//swap to a 25% shorter array
 		double blank = list.length - count;
 		double percent = blank/list.length;
+		int quarter = list.length/4;
+		int newsize = list.length - quarter;
 		if(percent > 0.25) {
-			int newarray[] = new int[count];
+			int newarray[] = new int[newsize];
 			for(int i = 0; i < count; i++) {
 				newarray[i] = list[i];
 			}
